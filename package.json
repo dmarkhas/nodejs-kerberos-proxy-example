@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-kerberos-proxy-example",
+  "version": "1.0.0",
+  "description": "Authentication and Authorization proxy for Kibana",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Markhasin",
+  "license": "ISC",
+  "dependencies": {
+    "activedirectory": "0.7.2",  
+    "express": "4.15.3",
+    "express-http-proxy": "1.0.5",
+    "express-kerberos": "1.0.0",
+    "express-session": "1.15.4",
+    "kerberos":"0.0.24",
+    "underscore":"1.8.3"
+  }
+}
